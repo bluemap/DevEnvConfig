@@ -87,14 +87,14 @@ zend_extension = xdebug.so
 xdebug.mode=debug
 xdebug.start_with_request=yes
 xdebug.client_host=127.0.0.1
-xdebug.client_port=8000  
+xdebug.client_port=9003
 xdebug.log=/tmp/xdebug.log 
 ```
 ## 配置Xdebug扩展
 ![安装php extension pack](image.png)
 该扩展包含了xdebug及代码智能提示两个扩展
 ## 配置launch.json
-在侧栏点击“调试（Debug）”图标或者按 Ctrl+Shift+D   
+打开一个php项目，在侧栏点击“调试（Debug）”图标或者按 Ctrl+Shift+D   
 点击上方的“创建 launch.json 文件”按钮，并选择“PHP”
 ## 验证配置
 `php artisan serve`重启服务   

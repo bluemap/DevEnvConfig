@@ -58,7 +58,7 @@ brew install node
 # 新建Laravel项目
 - [查看教程](https://learnku.com/docs/laravel/10.x/installation/14835#d05bfc)
 ```
-composer create-project laravel/laravel example-app
+composer create-project laravel/laravel example-app   
 或者，你可以通过 Laravel 安装器作为全局 Composer 依赖：
 composer global require laravel/installer
 laravel new example-app
